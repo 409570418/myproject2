@@ -7,7 +7,7 @@ public class test1 {
         String[] name ={"samy","lucy","jane","rose","mina"};
         for (int i = 0; i < 5; i++) {
             if(i!=1){
-                System.out.println(name[i]+"\t"+englishs[i]+"\t"+math[i]+"\t");
+                System.out.println(name[i]+"\t"+englishs[i]+"\t"+math[i]+"\t"+(englishs[i]+math[i])/2);
             }
 
         }
