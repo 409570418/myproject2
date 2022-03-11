@@ -1,0 +1,1 @@
+C:\Users\USER\IdeaProjects\myproject2\build\classes\java\main\OUO\com\Hello.class;C:\Users\USER\IdeaProjects\myproject2\build\classes\java\main\OUO\com\Student.class;C:\Users\USER\IdeaProjects\myproject2\build\classes\java\main\OUO\com\scoring.class;C:\Users\USER\IdeaProjects\myproject2\build\classes\java\main\OUO\com\test1.class
