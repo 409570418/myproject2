@@ -24,9 +24,10 @@ public class Student {
         if (average<60){
             System.out.println("*");
         }
-
+        System.out.println();
     }
-        System.out.print();
+       public int average(){
+        return (english+math)/2;
     }
 }
 
