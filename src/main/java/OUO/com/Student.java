@@ -1,33 +1,31 @@
 package OUO.com;
 
-public class Student {
-    String name;
-    int english;
-    int math;
+import OUO.com.Printable;
 
-    public Student(String name){
-        this.name =name;
+
+public class Student implements Printable {
+    public String name;
+    protected int english;
+    protected int math;
+    public Student(String name) {
+        this.name = name;
     }
-    public Student(String name,int english,int math){
+    public Student(String name, int english, int math) {
         this(name);
-        //this.name=name;
         this.english = english;
         this.math = math;
-
     }
-    public Student(){
-
+    public Student() {
     }
-    public void print(){
-        int average=(english+math)/2;
-        System.out.println(name+"\t"+english+"\t"+math+"\t"+average);
-        if (average<60){
-            System.out.println("*");
+    public void print() {
+        System.out.print(name + "\t" + english +
+                "\t" + math + "\t" + getAverage());
+        if (getAverage() < 60) {
+            System.out.print("*");
         }
         System.out.println();
     }
-       public int average(){
+    public int getAverage() {
         return (english+math)/2;
     }
 }
-

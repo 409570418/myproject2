@@ -9,9 +9,13 @@ public class GraduateStudent extends Student {
     }
     public GraduateStudent(String name) {
         super(name);
-//        this.name = name;
+        this.name = name;
     }
     public void print() {
-        System.out.println(name + "\t"+english+"\t" +math + "\t" +average()+ "\t" + thesis);
+        System.out.println(name + "\t"+english+"\t" +math + "\t" +getAverage() + "\t" + thesis);
+    }
+
+    public void test() {
+
     }
 }

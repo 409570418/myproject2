@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 
     public class MyActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            System.out.println("hjahaja");
+            System.out.println("ccc");
         }
     }
 
